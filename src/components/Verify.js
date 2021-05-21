@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Redirect } from "react-router-dom";
 import { verifySignup } from "../utils/networkHandler";
 import { useHistory } from "react-router-dom";
 

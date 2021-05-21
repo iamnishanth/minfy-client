@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://min-fy.herokuapp.com/";
+const URL = "https://min-fy.herokuapp.com";
 
 export const login = async (formData) => {
   let { data } = await axios.post(`${URL}/login`, formData);
